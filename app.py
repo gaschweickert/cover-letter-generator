@@ -62,8 +62,8 @@ def getCoverLetter(model, key, cv, cl1, cl2, jd):
 
 
 def main():
-    st.set_page_config(page_title="Cover Letter Generator", page_icon=':koala:')
-    st.header("Cover Letter Generator :koala:")
+    st.set_page_config(page_title="Cover Letter Generator", page_icon=':cherries:')
+    st.header("Cover Letter Generator :cherries:")
     key = st.text_input("OpenAI key")
     model = st.selectbox("Model", ["gpt-4", "gpt-3.5-turbo-16k"])
     cv = st.text_area("Resume")
